@@ -19,8 +19,8 @@ CB_WAIT = 2 # in sec
 def usage():
 	print """
 	
-pyLoad Clipboard Extension
-###########################
+   cb2pyLoad   
+###############
 
 the script looks for links in the clipboard and send them to pyLoad via pyLoadCli
 
@@ -59,7 +59,6 @@ if len(sys.argv) > 1:
 
 
 url_filter = [
-	'http://www.boerse.bz/out/?url=',
 	'htp://foo.de',
 	'http://www.bar.com'
 ]
